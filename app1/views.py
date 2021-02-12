@@ -1,11 +1,36 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
+posts = [
+	{
+		'author': 'Ahmed',
+		'title':'Morning',
+		'content': 'Good Morning everyone, How are you doing',
+		'date': '11-2-2021'
+	},
+	{
+		'author': 'Ali',
+		'title':'Marriage',
+		'content': 'I have finally accomplished the miracle of Marriage',
+		'date': '12-2-2021'
+	},
+	{
+		'author': 'Mahmoud',
+		'title':'New Baby',
+		'content': 'I am a Father now :D',
+		'date': '13-2-2021'
+	}
+]
+
 
 def home(request):
-	return HttpResponse('<h1>Hi There, Welcome to Application 1 home.</h1>')
+	context={
+		'posts': posts,
+		'title': 'Home'
+	}
+	return render(request, 'blog/home.html', context)
 
 def profile(request):
-	return HttpResponse('<h1>Hi There, Welcome to your Application 1 profile.</h1>')
+	return render(request, 'blog/profile.html', {'title': 'Profile'})
 
 def friends(request):
-	return HttpResponse('<h1>Hi There</h1><br><h2>You can find your friends in this page</h2>')
+	return render(request, 'blog/friends.html', {'title': 'Friends'})
