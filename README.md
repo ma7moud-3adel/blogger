@@ -1,10 +1,10 @@
-### Hi there, I'm Mahmoud AHmed [code4learn.com] 👋
+### Hi there, I'm Mahmoud Adel 👋
 
-## I'm a Python Developer & Instructor
+## I'm a Python & Embedded System Developer.
 - 🔭 I’m currently working as a freelancer !
-- 🌱 I’m currently learning Data Sciense & AI 🤣
+- 🌱 I’m currently learning Data Sciense & AI 
 - 👯 I’m looking to collaborate with other content creators
-- 🥅 2020 Goals: Contribute more to Open Source projects & setup my company
+- 🥅 2025 Goals: Contribute more to Open Source projects & setup my company
 - ⚡ Fun fact: I love to draw and teach people
 
 
